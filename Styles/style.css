@@ -48,37 +48,37 @@
   width: 1320px;
   background: rgb(219, 214, 214);
   margin: 0 auto;
- text-align: center;
+  text-align: center;
   margin-top: 50px;
   padding: 50px;
   border-radius: 25px;
 }
-.section-one-title{
-    margin-top: 20px;
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    
+.section-one-title {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
-.section-one-title-one{
-    margin-top: 20px;
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    text-align: start;
+.section-one-title-one {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: start;
 }
-.section-one-btn{
-    margin-top: 20px;
-    width: 100px;
-    height: 40px;
+.section-one-btn {
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
 }
-.section-image{
-    margin-top: 60px;
-    display: flex;
-    justify-content: space-evenly}
+.section-image {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+}
 /* section one ends here */
-.video-section{
-    width: 1320px;
+.video-section {
+  width: 1320px;
   height: 900px;
   margin: 0 auto;
   display: flex;
@@ -87,44 +87,65 @@
   justify-content: center;
   margin-top: 50px;
 }
-.video-section h1, p{
-    
-    margin-bottom: 50px;
+.video-section h1,
+p {
+  margin-bottom: 50px;
 }
-.section-three{
-    width: 1320px;
+.section-three {
+  width: 1320px;
   height: 500px;
   margin: 0 auto;
 }
-.section-three-title{
-    display: flex;
+.section-three-title {
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
-.section-three-container{
-    
-    display: flex;
-  
+.section-three-container {
+  display: flex;
+
   justify-content: center;
 }
-.section-three-container-card{
-    width: 30%;
-    height: 250px;
-    margin: 20px;
-    border-radius: 25px;
-    padding: 30px;
+.section-three-container-card {
+  width: 33.33%;
+  height: 250px;
+  margin: 20px;
+  border-radius: 25px;
+  padding: 30px;
   justify-content: center;
   background: rgb(219, 214, 214);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-.section-three-container-card a{
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
+.section-three-container-card a {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.section-three-container-card:hover{
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2), 0 8px 30px rgba(0, 0, 0, 0.25);
-    transform: translateY(-5px); }
+.section-three-container-card:hover {
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2), 0 8px 30px rgba(0, 0, 0, 0.25);
+  transform: translateY(-5px);
+}
+.footer {
+  width: 1320px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/assets/handshake.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+}
+.footer-text{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+    color: #fafafa;
+}
