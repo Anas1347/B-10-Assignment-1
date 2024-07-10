@@ -164,7 +164,7 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("/assets/handshake.jpg");
+  background-image: url("../assets/handshake.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
